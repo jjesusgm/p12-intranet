@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsSopSolTipo" value="name:id_tipo_sol;datatype:int,name:id_nivel_acceso;datatype:int,name:tipo_sol;datatype:string" />
+	<infoitem key="UD_rsNivelesAcceso" value="name:id_nivel_acceso;datatype:int,name:nivel_de_acceso;datatype:string" />
+</info>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsLocalidades" value="name:id_estado;datatype:string,name:id_municipio;datatype:string,name:id_localidad;datatype:string,name:nom_localidad;datatype:string" />
+	<infoitem key="UD_rsEstados" value="name:id_estado;datatype:string,name:nom_estado;datatype:string,name:abr_estado;datatype:string" />
+	<infoitem key="UD_rsMunicipios" value="name:id_estado;datatype:string,name:id_municipio;datatype:string,name:nom_municipio;datatype:string" />
+	<infoitem key="UD_rsTipoAsentamiento" value="name:id_asentam;datatype:int,name:nom_asentam;datatype:string" />
+	<infoitem key="UD_rsTipoVialidad" value="name:id_vialidad;datatype:int,name:nom_vialidad;datatype:string" />
+	<infoitem key="UD_rsMsgErrPlat" value="name:id_err;datatype:int,name:Error;datatype:string" />
+</info>

@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+img.VAlignBottom {vertical-align:bottom}
+img.VAlignMiddle {vertical-align:middle}
+img.VAlignTop {vertical-align:top}
+img.HAlignCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.opaca:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+img.img_borde1 {
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: 5px;
+}
+img.img_borde2 {
+  border: 1px solid blue;
+  border-radius: 4px;
+  padding: 5px;
+}
+img.img_borde3 {
+  border: 1px solid red;
+  border-radius: 4px;
+  padding: 5px;
+}

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsResguardantes" value="name:username;datatype:string,name:nivel_de_acceso;datatype:string,name:nombre_completo;datatype:string" />
+	<infoitem key="UD_rsTiposDeDispositivo" value="name:id_tipo_dispositivo;datatype:int,name:tipo_dispositivo;datatype:string" />
+	<infoitem key="UD_rsMarcas" value="name:siglas;datatype:string,name:nombre_marca;datatype:string" />
+	<infoitem key="UD_rsTiposDeMonitor" value="name:siglas;datatype:string,name:tm_nombre;datatype:string" />
+	<infoitem key="UD_rsUbicaciones" value="name:id_ubicacion;datatype:string,name:ub_nombre;datatype:string" />
+</info>

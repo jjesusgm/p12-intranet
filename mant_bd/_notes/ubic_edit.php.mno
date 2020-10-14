@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsUbicacion" value="name:id_ubicacion;datatype:string,name:ub_nombre;datatype:string" />
+</info>

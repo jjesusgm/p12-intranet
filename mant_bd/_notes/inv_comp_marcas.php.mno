@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsInvCompMarcas" value="name:siglas;datatype:string,name:nombre_marca;datatype:string" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsCiclos" value="name:id_ciclo;datatype:int,name:ciclo;datatype:string" />
+</info>

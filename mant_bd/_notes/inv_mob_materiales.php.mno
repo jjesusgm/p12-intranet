@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsMateriales" value="name:id_material;datatype:int,name:material;datatype:string" />
+</info>

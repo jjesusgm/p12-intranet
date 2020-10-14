@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsCarrera" value="name:id_carrera;datatype:string,name:carrera;datatype:string" />
+</info>

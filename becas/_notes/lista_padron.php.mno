@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsPadron" value="name:codigo;datatype:string,name:sede;datatype:string,name:ult_acc;datatype:timestamp,name:ult_act;datatype:timestamp,name:curp;datatype:string,name:ap1;datatype:string,name:ap2;datatype:string,name:nom_bec;datatype:string,name:genero;datatype:string,name:fec_nac;datatype:date,name:il;datatype:string,name:monto;datatype:int,name:grado;datatype:string,name:grupo;datatype:string,name:turno;datatype:string,name:estatus;datatype:string,name:correo;datatype:string,name:tel_con;datatype:string,name:tel_eme;datatype:string,name:comentario;datatype:string,name:msg_err_plat;datatype:string" />
+</info>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsResguardantes" value="name:username;datatype:string,name:nivel_de_acceso;datatype:string,name:nombre_completo;datatype:string" />
+	<infoitem key="UD_rsTiposDeDispositivo" value="name:id_tipo_dispositivo;datatype:int,name:tipo_dispositivo;datatype:string" />
+	<infoitem key="UD_rsMarcas" value="name:siglas;datatype:string,name:nombre_marca;datatype:string" />
+	<infoitem key="UD_rsUbicaciones" value="name:id_ubicacion;datatype:string,name:ub_nombre;datatype:string" />
+	<infoitem key="UD_rsInvComputo" value="name:id_dispositivo;datatype:int,name:id_resguardante;datatype:string,name:id_tipo_dispositivo;datatype:int,name:id_marca;datatype:string,name:modelo;datatype:string,name:numero_serie;datatype:string,name:numero_inv_udg;datatype:string,name:nombre_dispositivo;datatype:string,name:ip_address;datatype:string,name:mac_address_eth;datatype:string,name:mac_address_wifi;datatype:string,name:estado;datatype:string,name:unidad_optica;datatype:string,name:uso;datatype:string,name:proc_marca;datatype:string,name:proc_modelo;datatype:string,name:proc_velocidad;datatype:string,name:memoria;datatype:string,name:so;datatype:string,name:so_version;datatype:string,name:id_tipo_monitor;datatype:string,name:disco_duro;datatype:string,name:ano_adquisicion;datatype:int,name:tipo_adquisicion;datatype:string,name:lan;datatype:string,name:wan;datatype:string,name:id_ubicacion;datatype:string,name:comentario;datatype:string,name:nombre_completo;datatype:string,name:tipo_dispositivo;datatype:string" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsSolicitudes" value="name:id_solicitud;datatype:int,name:id_tipo_sol;datatype:int,name:solicitante;datatype:string,name:usuario;datatype:string,name:fecha_sol;datatype:datetime,name:id_status;datatype:int,name:sol_info_1;datatype:string,name:comentario;datatype:string,name:res_usuario;datatype:string,name:res_fecha;datatype:datetime,name:res_comentario;datatype:string,name:tipo_sol;datatype:string,name:status;datatype:string" />
+</info>

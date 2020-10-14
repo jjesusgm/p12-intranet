@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsMarcas" value="name:id_marca;datatype:int,name:marca;datatype:string" />
+</info>

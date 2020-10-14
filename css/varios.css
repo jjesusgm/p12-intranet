@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+h1, h2, h3, h4, h5, h6 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+p {font-family: Verdana, Geneva, sans-serif;}
+p.center{text-align:center}
+p.justificado{text-align:justify}
+p.Marron{color:#900}
+p.Grande{font-size: 16px;}
+p.Indentado{text-indent: 50px;}
+p.LetraCapital:first-letter{font-size: 400%; font-weight: bold; }
+
+h1.center{text-align: center;}
+h2.center{text-align: center;}
+h3.center{text-align: center;}
+h4.center{text-align: center;}
+h5.center{text-align: center;}
+h6.center{text-align: center;}
+
+/* Aplica para cualquir etiqueta que contenga texto: P, H, etc. */
+.H_Estilo1{font-family:"Courier New";color:blue;}
+.H_Estilo2{font-family:"Courier New";color:#900}
+
+/* Aplica para cualquir etiqueta que contenga texto: P, H, etc. */
+.TXT_MsgInfo	{font-family:"Courier New";background-color:#BDE5F8;color:#00529B;}
+.TXT_MsgOK		{font-family:"Courier New";background-color:#DFF2BF;color:#4F8A10;}
+.TXT_MsgWarning	{font-family:"Courier New";background-color:#FEEFB3;color:#9F6000;}
+.TXT_MsgError	{font-family:"Courier New";background-color:#FFD2D2;color:#D8000C;}
+
+.margin_none{margin:0px 0px 0px 0px;}
+.margin_top{margin:15px 0px 0px 0px;}
+.margin_bottom{margin:0px 0px 15px 0px;}
+.margin_both{margin:15px 0px 15px 0px;}
+
+.ElemInLine{display:inline}
+.ElemBlock{display:block}
+.ElemOculto{display:none}

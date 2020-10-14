@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsUsuario" value="name:username;datatype:string,name:nivel_de_acceso;datatype:string,name:ciclo_de_ingreso;datatype:string,name:email;datatype:string,name:ultimo_acceso;datatype:timestamp,name:nombre_completo;datatype:string,name:ape_pat;datatype:string,name:ape_mat;datatype:string,name:nombres;datatype:string,name:genero;datatype:string,name:nip;datatype:string,name:nip_tipo;datatype:string,name:campus;datatype:string,name:carrera;datatype:string,name:comentario1;datatype:string,name:comentario2;datatype:string,name:comentario3;datatype:string,name:comentario4;datatype:string,name:comentario5;datatype:string" />
+	<infoitem key="UD_rsCiclos" value="name:id_ciclo;datatype:int,name:ciclo;datatype:string" />
+	<infoitem key="UD_rsCarreras" value="name:id_carrera;datatype:string,name:carrera;datatype:string" />
+	<infoitem key="UD_rsNivelesDeAcceso" value="name:id_nivel_acceso;datatype:int,name:nivel_de_acceso;datatype:string" />
+	<infoitem key="UD_rsCampus" value="name:id_campus;datatype:string,name:campus;datatype:string" />
+</info>

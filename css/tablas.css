@@ -1,0 +1,400 @@
+@charset "utf-8";
+/* CSS Document */
+
+.TablaNavegacion td a {text-decoration:none;}
+.TablaNavegacion td a:link {color:Blue;}
+.TablaNavegacion td a:visited {color:Blue;}
+.TablaNavegacion td a:hover {color:#09F;}
+
+.tabla_contactos {
+	font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    /*width: 100%;*/
+}
+
+.tabla_contactos th {
+	border: 1px solid #09F;
+    padding: 2px;
+    /*text-align: left;*/
+    background-color: #0066CC;
+    color: white;
+}
+
+.tabla_contactos th a {
+	text-decoration:none;
+    display:block;
+    /*height:22px;
+    line-height:22px;*/
+    color: Gray;
+    /*background-image: url('../usuarios/imagenes/menu_fondo_normal.png');
+    background-position:left top;   */
+}
+
+.tabla_contactos td {
+	border: 1px solid #09F;
+    padding: 2px;
+}
+.tabla_contactos td a {text-decoration:none;}
+.tabla_contactos td a:link {color:Blue;}
+.tabla_contactos td a:visited {color:Blue;}
+.tabla_contactos td a:hover {color:#09F;}
+
+.tabla_contactos tr:nth-child(even){
+	background-color: #CCCCFF
+}
+
+.tabla_contactos tr:hover {
+	background-color: #0FF;
+}
+
+.tabla_compatibilidad {
+	font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+.tabla_compatibilidad td {
+	border: 1px solid #C00;
+    /*text-align: center;*/
+    color: #C00;
+    padding: 6px;
+}
+
+.tabla_compatibilidad th {
+	border: 1px solid #C00;
+    /*text-align: center;*/
+    color: #C00;
+    padding: 10px;
+}
+
+.tabla_sencilla {
+	font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+.tabla_sencilla td {
+	border: 1px solid #C66;
+    padding: 2px;
+}
+
+.tabla_sencilla th {
+	border: 1px solid #C66;
+    padding: 2px;
+}
+
+.tabla_login {
+	font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #F00;
+}
+
+.tabla_login td {
+	color: #C00;
+    padding: 8px;
+}
+
+.tabla_login th {
+	border: 1px solid #F00;
+	background-color: #CC0000;
+	color: white;
+    padding: 4px;
+}
+
+.tabla_usuario {
+	font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #F00;
+}
+
+.tabla_usuario td {
+	color: #C00;
+    padding: 4px;
+}
+
+.tabla_usuario th {
+	border: 1px solid #F00;
+	background-color: #CC0000;
+	color: white;
+    padding: 4px;
+}
+
+.tabla_info_msg {
+	font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: none;
+}
+
+.tabla_info_msg td {
+	color: #000;
+    padding: 2px;
+}
+
+.tabla_info_msg th {
+	border: none;
+	background-color: #00F;
+	color: white;
+    padding: 8px;
+}
+
+.tabla_warn_msg {
+	font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: none;
+}
+
+.tabla_warn_msg td {
+	color: #000;
+    padding: 2px;
+}
+
+.tabla_warn_msg th {
+	border: none;
+	background-color: #F90;
+	color: white;
+    padding: 8px;
+}
+
+.tabla_error {
+	font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #F00;
+}
+
+.tabla_error td {
+	background-color: #FAE5D3;
+	color: #C00;
+    padding: 8px;
+}
+
+.tabla_error th {
+	border: 1px solid #F00;
+	background-color: #CC0000;
+	color: Yellow;
+    padding: 4px;
+}
+
+.tabla_menubar {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:9pt;
+}
+
+.tabla_menubar td {
+    background-image: url('../imagenes/menu_fondo_normal.png');
+    background-position:left top;   
+}
+
+.tabla_menubar td a {
+	text-decoration:none;
+    display:block;
+    height:47px;
+    line-height:47px;
+    color: Gray;
+    background-image: url('../imagenes/menu_fondo_normal.png');
+    background-position:left top;   
+}
+
+.tabla_menubar td:hover > a {
+	text-decoration:none;
+    color: DarkGray;
+    background-image: url('../imagenes/menu_fondo_hover.png');
+    background-position:left top;   
+}
+
+.tabla_menubar th {
+    background-image: url('../imagenes/menu_fondo_normal.png');
+    background-position:left top;   
+}
+
+.tabla_menubar th a {
+	text-decoration:none;
+    display:block;
+    height:47px;
+    line-height:47px;
+    color: #900;
+    background-image: url('../imagenes/menu_fondo_normal.png');
+    background-position:left top;   
+}
+
+.tabla_menubar th:hover > a {
+	text-decoration:none;
+    color: #C00;
+    background-image: url('../imagenes/menu_fondo_hover.png');
+    background-position:left top;   
+}
+
+.registro {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#C00;
+    border-collapse: collapse;
+    width: 700px;
+}
+
+.registro th {
+	border: 1px solid #09F;
+    padding: 2px;
+    text-align: left;
+    background-color: #0066CC;
+    color: white;
+}
+
+.registro td {
+	border: 1px solid #09F;
+    padding: 2px;
+}
+
+.TablaListaInventario {
+    border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-shadow:1px 1px 1px rgba(255,255,255,.9);
+}
+
+.TablaListaInventario th {
+	border: 1px solid #09F;
+    padding: 2px;
+    background-color: #CCF;
+    color: Black;
+}
+
+.TablaListaInventario th a {
+	text-decoration:none;
+    display:block;
+    color: Gray;
+}
+
+.TablaListaInventario td {
+	border: 1px solid #09F;
+	padding: 2px;
+}
+.TablaListaInventario td a {text-decoration:none;}
+.TablaListaInventario td a:link {color:Blue;}
+.TablaListaInventario td a:visited {color:Blue;}
+.TablaListaInventario td a:hover {color:#09F;}
+
+.TablaListaInventario tr:nth-child(even){
+	background-color: #f5f5f5
+}
+
+.TablaListaInventario tr:hover {
+	background-color: #FFC;
+}
+
+.TablaEntregaNIP {
+    border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-shadow:1px 1px 1px rgba(255,255,255,.9);
+}
+
+.TablaEntregaNIP th {
+	border: 1px solid #09F;
+    padding: 2px;
+    background-color: #CCF;
+    color: Black;
+}
+
+.TablaEntregaNIP td {
+	border: 1px solid #09F;
+	padding: 2px;
+}
+
+.TablaEntregaNIP td.highlight1 {
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.TablaEntregaNIP td.highlight2 {
+    color: red;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.TablaViewProfile {
+    border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	text-shadow:1px 1px 1px rgba(255,255,255,.9);
+}
+
+.TablaViewProfile th {
+    padding: 5px;
+    color: Black;
+}
+
+.TablaViewProfile td {
+	padding: 5px;
+}
+
+/* Tabla para mensajes informativos */
+.TBL_MsgInfo {
+    border-collapse: collapse;
+	background-color:#BDE5F8;
+	width:100%;
+	min-height:50px;
+}
+.TBL_MsgInfo td {
+	background-color:#BDE5F8;
+	padding:5px 10px 5px 10px;
+	color:#00529B;
+	font-family:"Courier New", Courier, monospace;
+}
+.TBL_MsgInfo th {
+	width:5px;
+	background-color:blue;
+}
+
+/* Tabla para mensajes positivos */
+.TBL_MsgOk {
+    border-collapse: collapse;
+	background-color:#DFF2BF;
+	width:100%;
+	min-height:50px;
+}
+.TBL_MsgOk td {
+	background-color:#DFF2BF;
+	padding:5px 10px 5px 10px;
+	color:#4F8A10;
+	font-family:"Courier New", Courier, monospace;
+}
+.TBL_MsgOk th {
+	width:5px;
+	background-color:green;
+}
+
+/* Tabla para mensajes de Warning */
+.TBL_MsgWarning {
+    border-collapse: collapse;
+	background-color:#FEEFB3;
+	width:100%;
+	min-height:50px;
+}
+.TBL_MsgWarning td {
+	background-color:#FEEFB3;
+	padding:5px 10px 5px 10px;
+	color:#9F6000;
+	font-family:"Courier New", Courier, monospace;
+}
+.TBL_MsgWarning th {
+	width:5px;
+	background-color:orange;
+}
+
+/* Tabla para mensajes de error */
+.TBL_MsgError {
+    border-collapse: collapse;
+	background-color:#FFD2D2;
+	width:100%;
+	min-height:50px;
+}
+.TBL_MsgError td {
+	background-color:#FFD2D2;
+	padding:5px 10px 5px 10px;
+	color:#D8000C;
+	font-family:"Courier New", Courier, monospace;
+}
+.TBL_MsgError th {
+	width:5px;
+	background-color:red;
+}
+
+

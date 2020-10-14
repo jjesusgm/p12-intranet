@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsTiposSolicitud" value="name:id_tipo_sol;datatype:int,name:id_nivel_acceso;datatype:int,name:tipo_sol;datatype:string" />
+	<infoitem key="UD_rsTipoSolicitud" value="name:id_tipo_sol;datatype:int,name:id_nivel_acceso;datatype:int,name:tipo_sol;datatype:string" />
+	<infoitem key="UD_rsSolicitud" value="name:id_solicitud;datatype:int,name:id_tipo_sol;datatype:int,name:solicitante;datatype:string,name:usuario;datatype:string,name:fecha_sol;datatype:datetime,name:id_status;datatype:int,name:sol_info_1;datatype:string,name:comentario;datatype:string,name:res_usuario;datatype:string,name:res_fecha;datatype:datetime,name:res_comentario;datatype:string" />
+	<infoitem key="UD_rsSolStatus" value="name:id_status;datatype:int,name:status;datatype:string" />
+	<infoitem key="UD_rsResUsuarios" value="name:username;datatype:string,name:nivel_de_acceso;datatype:string,name:ciclo_de_ingreso;datatype:string,name:email;datatype:string,name:ultimo_acceso;datatype:timestamp,name:nombre_completo;datatype:string,name:ape_pat;datatype:string,name:ape_mat;datatype:string,name:nombres;datatype:string,name:genero;datatype:string,name:nip;datatype:string,name:nip_tipo;datatype:string,name:campus;datatype:string,name:carrera;datatype:string,name:comentario1;datatype:string,name:comentario2;datatype:string,name:comentario3;datatype:string,name:comentario4;datatype:string,name:comentario5;datatype:string" />
+</info>

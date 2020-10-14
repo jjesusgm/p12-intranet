@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Set caret position test</title>
+<script type="text/javascript" src="set_caret_pos.js"></script>
+<script language="javascript">
+function focusIpField() {
+	var ip = document.getElementById("fDirIp");
+	setCaretPosition(ip, ip.value.length);
+}
+function updateIpField() {
+    var sr = document.getElementById("fSubRed").value;
+	var ip = document.getElementById("fDirIp");
+    ip.value = "148.202."+sr+".";
+	setCaretPosition(ip, ip.value.length);
+	//ip.focus();
+	//ip.setCaretPosition(ip.getText().length());
+}
+</script>
+</head>
+<body onload="focusIpField()">
+<form id="form1" name="form1" method="post" action="">
+  <table>
+    <tr>
+      <th align="right"><label for="fSubRed">Subred</label></th>
+      <td><select name="fSubRed" id="fSubRed" onChange="updateIpField()">
+        <option value="47">47</option>
+        <option value="76">76</option>
+      </select></td>
+    </tr>
+    <tr>
+      <th align="right"><label for="fDirIp2">IP</label></th>
+      <td><input type="text" id="fDirIp" value="148.202.47." /></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

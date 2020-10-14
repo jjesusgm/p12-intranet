@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsNivelesDeAcceso" value="name:nivel_de_acceso;datatype:string" />
+</info>

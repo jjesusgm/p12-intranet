@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsMarcas" value="name:id_marca;datatype:int,name:marca;datatype:string" />
+	<infoitem key="UD_rsRsguardantes" value="name:username;datatype:string,name:nivel_de_acceso;datatype:string,name:nombre_completo;datatype:string" />
+	<infoitem key="UD_rsTipos" value="name:id_tipo_mobiliario;datatype:int,name:tipo_mobiliario;datatype:string" />
+	<infoitem key="UD_rsMateriales" value="name:id_material;datatype:int,name:material;datatype:string" />
+	<infoitem key="UD_rsColores" value="name:id_color;datatype:int,name:color;datatype:string" />
+	<infoitem key="UD_rsUbicaciones" value="name:id_ubicacion;datatype:string,name:ub_nombre;datatype:string" />
+	<infoitem key="UD_rsInvMobiliario" value="name:id_mobiliario;datatype:int,name:id_marca;datatype:int,name:id_resguardante;datatype:string,name:id_tipo;datatype:int,name:id_material;datatype:int,name:id_color;datatype:int,name:numero_serie;datatype:string,name:numero_inv_udg;datatype:string,name:descripcion;datatype:string,name:id_ubicacion;datatype:string,name:comentario;datatype:string,name:marca;datatype:string,name:nombre_completo;datatype:string,name:tipo_mobiliario;datatype:string,name:material;datatype:string,name:color;datatype:string" />
+</info>

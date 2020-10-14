@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+div {
+	margin-bottom: 10px;
+	position: relative;
+}
+
+#div_hdr_links {
+    margin: auto;
+    border: 1px solid LightGray;
+    padding:6px;
+	background: #999999;
+	font-size:12px;
+	color:White;
+	text-align:right
+}
+
+#div_hdr_links a {
+	text-decoration:none;
+    color: White;
+}
+
+#div_hdr_links a:hover {
+	text-decoration:none;
+    color: DarkGray;
+}
+
+#div_hdr_logo {
+    margin: auto;
+    width: 95%;
+	height: 82px;
+    border: 1px solid White;
+    padding: 0px;
+	background: White;
+}
+
+#div_hdr_sitename {
+    margin: auto;
+    width: 95%;
+	line-height: 60px;
+	height: 60px;
+    border: 1px solid #FF9900;
+	padding-top:0px;
+	padding-right:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	background: #FF9900;
+	border-radius: 10px 10px 0px 0px;
+}
+
+#div_hdr_menu {
+	margin: auto;
+	width: 95%;
+	height: 43px;
+	border: 1px solid White;
+	padding: 0px;
+	background: White;
+	box-shadow: 0px 0px 5px 0px #aaaaaa;
+}
+
+#div_hdr_path {
+	margin: auto;
+	width: 95%;
+	background: #E6E6E6;
+	border: 1px solid White;
+	box-shadow: inset 1px 1px 1px rgba(255,255,255,.7), inset -1px -1px 1px rgba(0,0,0,.1), 0px 0px 5px 0px #aaaaaa;
+	font-size: 14px;
+	height: 20px;
+	padding: 0px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,.9);  /* Sombra del texto */
+}
+
+#div_contenido {
+    margin: auto;
+    width: 95%;
+    border: 1px solid White;
+    padding: 0px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 5px 0px #aaaaaa;
+}
+
+#div_footer {
+	margin: auto;
+	width: 95%;
+	border: 1px solid White;
+	padding: 0px;
+	background: #E6E6E6;
+	font-size: 12px;
+	color: Gray;
+	box-shadow: 0px 0px 5px 0px #aaaaaa;
+}
+
+#div_footer a {
+	text-decoration:none;
+    color: Gray;
+}
+
+#div_footer a:hover {
+	text-decoration:none;
+    color: DarkGray;
+}
+
+.div_mensaje_alerta {
+	background-color: #FF0000;
+	color:White;
+	padding:4px;
+	font-weight:bold;
+}
+
+.div_filtro {
+	margin:auto;
+	width:600px;
+	padding:4px;
+	background-color: #FFFFFF;
+	color:#000;
+}
+
+.div_fldr_tab {
+	border-left:1px solid #33F;
+	border-right:1px solid #33F;
+	border-top:1px solid #33F;
+	border-bottom:none;
+	height: auto; 
+	width: auto; 
+	margin:0px; 
+	background-color:#FAD7A0;
+	font-size: 12px; 
+	text-align:center; 
+	padding-left:15px; 
+	padding-right:15px; 
+	padding-top:5px; 
+	padding-bottom:5px; 
+	word-wrap:break-word; 
+	border-radius: 15px 15px 0px 0px;
+}
+
+.div_fldr_tab a{text-decoration:none;}
+.div_fldr_tab a:link {color:Blue;}
+.div_fldr_tab a:visited {color:Blue;}
+.div_fldr_tab a:hover {color:#09F;}
+
+.div_fldr {
+	border: 1px solid #33F;
+	margin: auto;
+	width: 750px;
+	background-color: #FEF9E7;
+	padding: 4px;
+	color: #000;
+	border-radius: 16px 16px 16px 16px;
+}
+
+/* Div para enmarcar tablas con sombra */
+div.DivShadowMsg{
+	margin: auto;
+	width: 800px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.DivShadowMsgLogin{
+	margin: auto;
+	width: 350px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.DivShadowMsgValidar{
+	margin: auto;
+	width: 550px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

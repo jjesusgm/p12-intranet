@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+a {text-decoration: none; /* forzar sin subrayado */}
+
+a.estilo1 {text-decoration:none;}
+a.estilo1:link {color:#FFF;}
+a.estilo1:visited {color:#FFF;}
+a.estilo1:hover {color:#FCF;}
+
+a.estilo2 {text-decoration:none;}
+a.estilo2:link {color:Red;}
+a.estilo2:visited {color:Red;}
+a.estilo2:hover {color:#F66;}
+
+a.estilo3 {text-decoration:none;}
+a.estilo3:link {color:Blue;}
+a.estilo3:visited {color:Blue;}
+a.estilo3:hover {color:#09F;}
+
+a.Ntooltip {
+	position: relative; /* es la posición normal */
+	text-decoration: none !important; /* forzar sin subrayado */
+	color:#0080C0 !important; /* forzar color del texto */
+}
+
+a.Ntooltip:hover {
+	z-index:999; /* va a estar por encima de todo */
+}
+
+a.Ntooltip span {
+	display: none; /* el elemento va a estar oculto */
+}
+
+a.Ntooltip:hover span {
+	display: block; /* se fuerza a mostrar el bloque */
+	position: absolute; /* se fuerza a que se ubique en un lugar de la pantalla */
+	top:-1.6em; left:0.2em; /* donde va a estar */
+	height:auto;
+	width:auto; /* el ancho por defecto que va a tener */
+	padding:15px; /* la separación entre el contenido y los bordes */
+	background-color: #FF0000; /* el color de fondo por defecto */
+	color: #FFFF00; /* el color de los textos por defecto */
+	font-size:120px;
+	font-weight:bold !important; /* forzar negritas */
+}
+
+a.NtooltipSmall {
+	position: relative; /* es la posición normal */
+	text-decoration: none !important; /* forzar sin subrayado */
+	color:#0080C0 !important; /* forzar color del texto */
+}
+
+a.NtooltipSmall:hover {
+	z-index:999; /* va a estar por encima de todo */
+}
+
+a.NtooltipSmall span {
+	display: none; /* el elemento va a estar oculto */
+}
+
+a.NtooltipSmall:hover span {
+	border: 1px solid Black;
+	display: block; /* se fuerza a mostrar el bloque */
+	position: absolute; /* se fuerza a que se ubique en un lugar de la pantalla */
+	top:-3em; left:0.2em; /* donde va a estar */
+	height:auto;
+	width:200px; /* el ancho por defecto que va a tener */
+	padding:4px; /* la separación entre el contenido y los bordes */
+	background-color: #CCCCFF; /* el color de fondo por defecto */
+	color: #0033FF; /* el color de los textos por defecto */
+	font-size:15px;
+	font-weight:bold !important; /* forzar negritas */
+}
+
+.button-link {
+	background: #4CAF50;
+	color: #FFF;
+	padding: 6px 10px;
+	border-radius: 4px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-shadow:none;
+}
