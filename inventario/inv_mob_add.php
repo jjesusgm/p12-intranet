@@ -194,6 +194,7 @@ body {
 <link href="../css/divs.css" rel="stylesheet" type="text/css" />
 <link href="../css/enlaces.css" rel="stylesheet" type="text/css" />
 <link href="../css/formularios.css" rel="stylesheet" type="text/css" />
+<link href="../css/imagenes.css" rel="stylesheet" type="text/css" />
 <link href="../css/menu1.css" rel="stylesheet" type="text/css" />
 <link href="../css/tablas.css" rel="stylesheet" type="text/css" />
 <link href="../css/varios.css" rel="stylesheet" type="text/css" />
