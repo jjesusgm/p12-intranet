@@ -94,7 +94,7 @@ Ninguna sesion iniciada&nbsp;&nbsp;&nbsp;&nbsp;<a href="../login.php">Iniciar se
       </table></td>
     </tr>
     <tr>
-      <td align="center"><img src="imagenes/banner_actualizacion_padron_becas_bbbj.jpg" alt="Becas para el Bienestar Benito Juarez" style="width:100%"></td>
+      <td align="center">&nbsp;</td>
     </tr>
     <tr>
       <td align="center">&nbsp;</td>

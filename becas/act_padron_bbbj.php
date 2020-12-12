@@ -455,7 +455,7 @@ do {
             <td class="TablaEntregaNIP"><input name="fNomVialCarrCam" type="text" required id="fNomVialCarrCam" value="<?php echo $row_rsAlumno['nom_vial_carr_cam']; ?>" maxlength="100" title="Nombre de vialidad del domicilio del estudiante"></td>
           </tr>
           <tr>
-            <td align="right" class="TablaEntregaNIP"><label for="fTipoRef1">Tipo de referencia 1:</label></td>
+            <td align="right" class="TablaEntregaNIP"><label for="fTipoRef1">Tipo de referencia 1*:</label></td>
             <td class="TablaEntregaNIP"><select name="fTipoRef1" id="fTipoRef1" title="Tipo de referencia 1">
               <?php
 do {  
@@ -472,12 +472,12 @@ do {
             </select> Viendo tu casa de frente,</td>
           </tr>
           <tr>
-            <td align="right" class="TablaEntregaNIP"><label for="fNomRef1">Nombre referencia 1:</label></td>
-            <td class="TablaEntregaNIP"><input name="fNomRef1" type="text" id="fNomRef1" value="<?php echo $row_rsAlumno['nom_ref_1']; ?>" maxlength="100" title="Viendo tu casa de frente, ¿cuál es el nombre de la vialidad que se ubica a tu derecha?"> ¿cuál es el nombre de la vialidad que se ubica a tu derecha?</td>
+            <td align="right" class="TablaEntregaNIP"><label for="fNomRef1">Nombre referencia 1*:</label></td>
+            <td class="TablaEntregaNIP"><input name="fNomRef1" type="text" id="fNomRef1" value="<?php echo $row_rsAlumno['nom_ref_1']; ?>" maxlength="100" title="Viendo tu casa de frente, ¿cuál es el nombre de la vialidad que se ubica a tu derecha?" required> ¿cuál es el nombre de la vialidad que se ubica a tu derecha?</td>
           </tr>
 
           <tr>
-            <td align="right" class="TablaEntregaNIP"><label for="fTipoRef2">Tipo de referencia 2:</label></td>
+            <td align="right" class="TablaEntregaNIP"><label for="fTipoRef2">Tipo de referencia 2*:</label></td>
             <td class="TablaEntregaNIP"><select name="fTipoRef2" id="fTipoRef2" title="Tipo de referencia 2">
               <?php
 do {  
@@ -494,12 +494,12 @@ do {
             </select> Viendo tu casa de frente,</td>
           </tr>
           <tr>
-            <td align="right" class="TablaEntregaNIP"><label for="fNomRef2">Nombre referencia 2:</label></td>
-            <td class="TablaEntregaNIP"><input name="fNomRef2" type="text" id="fNomRef2" value="<?php echo $row_rsAlumno['nom_ref_2']; ?>" maxlength="100" title="Nombre de referencia 2"> ¿cuál es el nombre de la vialidad que se ubica a tu izquierda?</td>
+            <td align="right" class="TablaEntregaNIP"><label for="fNomRef2">Nombre referencia 2*:</label></td>
+            <td class="TablaEntregaNIP"><input name="fNomRef2" type="text" id="fNomRef2" value="<?php echo $row_rsAlumno['nom_ref_2']; ?>" maxlength="100" title="Nombre de referencia 2" required> ¿cuál es el nombre de la vialidad que se ubica a tu izquierda?</td>
           </tr>
 
           <tr>
-            <td align="right" class="TablaEntregaNIP"><label for="fTipoRef3">Tipo de referencia 3:</label></td>
+            <td align="right" class="TablaEntregaNIP"><label for="fTipoRef3">Tipo de referencia 3*:</label></td>
             <td class="TablaEntregaNIP"><select name="fTipoRef3" id="fTipoRef3" title="Tipo de referencia 3">
               <?php
 do {  
@@ -516,8 +516,8 @@ do {
             </select> Viendo tu casa de frente,</td>
           </tr>
           <tr>
-            <td align="right" class="TablaEntregaNIP"><label for="fNomRef3">Nombre referencia 3:</label></td>
-            <td class="TablaEntregaNIP"><input name="fNomRef3" type="text" id="fNomRef3" value="<?php echo $row_rsAlumno['nom_ref_3']; ?>" maxlength="100" title="Nombre de referencia 3"> ¿cuál es el nombre de la vialidad que se ubica atrás de tu casa?</td>
+            <td align="right" class="TablaEntregaNIP"><label for="fNomRef3">Nombre referencia 3*:</label></td>
+            <td class="TablaEntregaNIP"><input name="fNomRef3" type="text" id="fNomRef3" value="<?php echo $row_rsAlumno['nom_ref_3']; ?>" maxlength="100" title="Nombre de referencia 3" required> ¿cuál es el nombre de la vialidad que se ubica atrás de tu casa?</td>
           </tr>
 
           <tr>

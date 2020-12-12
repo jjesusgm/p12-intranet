@@ -125,30 +125,35 @@ Ninguna sesion iniciada&nbsp;&nbsp;&nbsp;&nbsp;<a href="../login.php">Iniciar se
     <?php if ($totalRows_rsAlumno == 0) { // Show if recordset empty ?>
       <tr>
         <td align="center"><form name="form1" method="post" action="">
-         <div class="DivShadowMsgLogin">
-          <table width="350" class="tabla_info_msg">
-            <tr>
-              <th colspan="2" align="left" scope="col">Escribe tu código</th>
-            </tr>
-            <tr>
-              <td align="right">&nbsp;</td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td width="100" align="right">Código*</td>
-              <td><input name="fCodigo" type="text" id="fCodigo" size="15" maxlength="9" required pattern="[0-9]{9,}">
-                <input type="submit" name="bEnviar" id="bEnviar" value="Enviar"></td>
-            </tr>
-            <tr>
-              <td align="right">&nbsp;</td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr bgcolor="#FFFF00">
-              <td colspan="2" align="center">Escribe tu código de estudiante, recuerda que debe ser de 9 dígitos.</td>
+          <div class="DivShadowMsgLogin">
+            <table width="350" class="tabla_info_msg">
+              <tr>
+                <th colspan="2" align="left" scope="col">Escribe tu código</th>
               </tr>
-          </table>
-         </div>
-        </form></td>
+              <tr>
+                <td align="right">&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="100" align="right">Código*</td>
+                <td><input name="fCodigo" type="text" id="fCodigo" size="15" maxlength="9" required pattern="[0-9]{9,}">
+                  <input type="submit" name="bEnviar" id="bEnviar" value="Enviar"></td>
+              </tr>
+              <tr>
+                <td align="right">&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr bgcolor="#FFFF00">
+                <td colspan="2" align="center">Escribe tu código de estudiante, recuerda que debe ser de 9 dígitos.</td>
+              </tr>
+            </table>
+          </div>
+        </form>
+        <?php if (isset($_POST['fCodigo'])) { // Show if fCodigo is set ?>
+          <br>¡DATOS NO ENCONTRADOS, INGRESA AL LINK Y COMPLETA EL FORMULARIO!<br>
+        <a href="https://forms.gle/kWmu9D39KsVcpVU37" target="_blank" class="estilo3">https://forms.gle/kWmu9D39KsVcpVU37</a>
+        <?php } // Show if fCodigo is set ?>
+        </td>
       </tr>
       <?php } // Show if recordset empty ?>
     <?php if ($totalRows_rsAlumno > 0) { // Show if recordset not empty ?>
