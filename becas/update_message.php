@@ -54,7 +54,6 @@ body {
 <link href="../css/menu1.css" rel="stylesheet" type="text/css" />
 <link href="../css/tablas.css" rel="stylesheet" type="text/css" />
 <link href="../css/varios.css" rel="stylesheet" type="text/css" />
-<link href="css/estilos.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="../js/menus.js"></script>
 </head>
 <!-- InstanceEndEditable -->
@@ -72,52 +71,28 @@ Ninguna sesion iniciada&nbsp;&nbsp;&nbsp;&nbsp;<a href="../login.php">Iniciar se
 <script language="javascript" type="text/javascript">muestraMenuMain("<?php if(isset($_SESSION['MM_UserGroup'])){echo $_SESSION['MM_UserGroup'];}else {echo '';} ?>", "../", "");</script>
 </div>
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Path" -->
-<div id="div_hdr_path">&nbsp;Inicio &gt; Contacto</div>
+<div id="div_hdr_path">&nbsp;Inicio &gt; Becas</div>
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Contenido" -->
 <div id="div_contenido">
-  <form name="form1" method="post" action="">
-    <table width="90%" align="center">
-      <tr>
-        <td><h1 class="H_Estilo1">Ponte en contacto con nosotros</h1></td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td align="center"><table width="700" align="center" class="contacto">
-          <tr>
-            <td><label for="fFechaContacto">Fecha:</label>
-              <input name="fFechaContacto" type="text" id="fFechaContacto" readonly="readonly"></td>
-            <td><label for="fNombre">Nombre:</label>
-              <input type="text" name="fNombre" id="fNombre" required></td>
-          </tr>
-          <tr>
-            <td><label for="fTelefono">Teléfono:</label>
-              <input type="text" name="fTelefono" id="fTelefono" required></td>
-            <td><label for="fEmail">eMail:</label>
-              <input type="text" name="fEmail" id="fEmail" required></td>
-          </tr>
-          <tr>
-            <td colspan="2"><label for="fMensaje">Mensaje:</label>
-              <textarea name="fMensaje" id="fMensaje" required></textarea></td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td colspan="2"><input type="submit" name="bEnviar" id="bEnviar" value="Enviar"></td>
-            </tr>
-        </table></td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-    </table>
-  </form>
+  <table width="90%" align="center">
+    <tr>
+      <td><h1 class="H_Estilo1">Pagina de apoyo a Becas</h1></td>
+    </tr>
+    <tr>
+      <td><h3 class="H_Estilo2 margin_none">Mensaje del sistema</h3></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center"><p>Gracias!!!<br>
+        Tu información se actualizó correctamente en la base de datos</p>
+      <p><a href="index.php" class="estilo3">Inicio de becas</a> | <a href="consulta_bbbj.php" class="estilo3">Nueva búsqueda</a></p></td>
+    </tr>
+    <tr>
+      <td align="center">&nbsp;</td>
+    </tr>
+  </table>
 </div>
 <!-- InstanceEndEditable -->
 <div id="div_footer">

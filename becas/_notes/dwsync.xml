@@ -7,6 +7,8 @@
 <file name="consulta_bbbj.php" server="C:/xampp/htdocs/intranet_p12/" local="132448668927014986" remote="132448668920000000" Dst="2" />
 <file name="act_padron_bbbj.php" server="C:/xampp/htdocs/intranet_p12/" local="132448623913468279" remote="132448623910000000" Dst="2" />
 <file name="index.php" server="148.202.47.2/../intranet/" local="132522331717005486" remote="132522547200000000" Dst="1" />
-<file name="act_padron_bbbj.php" server="148.202.47.2/../intranet/" local="132522332685253644" remote="132522173400000000" Dst="1" />
+<file name="act_padron_bbbj.php" server="148.202.47.2/../intranet/" local="132763791728449493" remote="132763971000000000" Dst="2" />
 <file name="consulta_bbbj.php" server="148.202.47.2/../intranet/" local="132522332800159857" remote="132522174000000000" Dst="1" />
+<file name="log_update.php" server="148.202.47.2/../intranet/" local="132570421228543626" remote="132570690600000000" Dst="1" />
+<file name="update_message.php" server="148.202.47.2/../intranet/" local="132570475964582302" remote="132570691800000000" Dst="1" />
 </dwsync>

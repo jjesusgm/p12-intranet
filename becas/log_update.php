@@ -28,5 +28,5 @@ mysql_close($conBecas);
 // FIN: Actualizar en la base de datos de becas la última actualización hecha por el alumno
 
 // Redirigimos al usuario al archivo index.php
-header('Location: index.php');
+header('Location: update_message.php');
 ?>

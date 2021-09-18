@@ -99,6 +99,13 @@ body {
 <link href="../css/tablas.css" rel="stylesheet" type="text/css" />
 <link href="../css/varios.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="../js/menus.js"></script>
+<script>
+function replaceURLWithHTMLLinks(e){return e.replace(/(\(.*?)?\b((?:https?|ftp|file):\/\/[-a-z0-9+&@#\/%?=~_()|!:,.;]*[-a-z0-9+&@#\/%=~_()|])/gi,function(e,r,n){var t="";r=r||"";for(var a=/\(/g;a.exec(r);){var l;(l=/(.*)(\.\).*)/.exec(n)||/(.*)(\).*)/.exec(n))&&(n=l[1],t=l[2]+t)}return r+"<a href='"+n+"' target='_blank' rel='nofollow noopener'>"+n+"</a>"+t})}
+document.addEventListener("DOMContentLoaded",function(event){
+var elm1=document.getElementById("text2url-1");elm1.innerHTML=replaceURLWithHTMLLinks(elm1.innerHTML);
+var elm2=document.getElementById("text2url-2");elm2.innerHTML=replaceURLWithHTMLLinks(elm2.innerHTML);
+});
+</script>
 </head>
 <!-- InstanceEndEditable -->
 <body onload="">
@@ -154,7 +161,7 @@ Ninguna sesion iniciada&nbsp;&nbsp;&nbsp;&nbsp;<a href="../login.php">Iniciar se
       <td align="center">&nbsp;</td>
     </tr>
     <tr>
-    <td align="center"><div class="DivShadowMsgValidar"><table width="100%" class="TablaListaInventario">
+    <td align="center"><div class="DivShadowMsgPrimerIngreso"><table width="100%" class="TablaListaInventario">
       <tr>
         <th colspan="2" align="left" scope="col">Detalles del alumno</th>
         </tr>
@@ -167,30 +174,47 @@ Ninguna sesion iniciada&nbsp;&nbsp;&nbsp;&nbsp;<a href="../login.php">Iniciar se
         <td align="left"><?php echo $row_rsAlumnos['codigo']; ?></td>
       </tr>
       <tr>
-        <td align="right"><strong>NOMBRE:</strong></td>
+        <td align="right"><strong>CONTRASEÑA/NIP:</strong></td>
+        <td align="left">El mismo que usabas para hacer seguimiento a tú trámite de aspirante (puedes cambiarla dentro de tu cuenta SIIAU en cualquier momento).</td>
+      </tr>
+      <tr>
+        <td align="right"><strong>NOMBRE COMPLETO:</strong></td>
         <td align="left"><?php echo $row_rsAlumnos['nom_comp']; ?></td>
       </tr>
       <tr>
+        <td align="right"><strong>CORREO ELECTRONICO INSTITUCIONAL:</strong></td>
+        <td align="left"><?php echo $row_rsAlumnos['email']; ?></td>
+      </tr>
+      <tr>
+        <td align="right"><strong>CAMPUS:</strong></td>
+        <td align="left"><?php echo $row_rsAlumnos['campus']; ?></td>
+      </tr>
+      <tr>
         <td align="right"><strong>GRUPO:</strong></td>
-        <td align="left"><?php echo $row_rsAlumnos['grado']; ?>°&nbsp;<?php echo $row_rsAlumnos['grupo']; ?>&nbsp;T/<?php echo $row_rsAlumnos['turno']; ?></td>
-      </tr>
-      <tr>
-        <td align="right"><strong>SECCION:</strong></td>
-        <td align="left"><?php echo $row_rsAlumnos['seccion']; ?></td>
-      </tr>
-      <tr>
-        <td align="right"><strong>FECHA CURSO INDUCCION:</strong></td>
-        <td align="left"><?php echo $row_rsAlumnos['fec_cur_ind']; ?></td>
-      </tr>
-      <tr>
-        <td align="right"><strong>HORA CURSO INDUCCION:</strong></td>
-        <td align="left"><?php echo $row_rsAlumnos['hor_cur_ind']; ?></td>
+        <td align="left"><?php echo $row_rsAlumnos['grado']; ?>°&nbsp;<?php echo $row_rsAlumnos['grupo']; ?> Turno <?php echo $row_rsAlumnos['turno']; ?></td>
       </tr>
       <tr>
         <td align="right"><strong>AULA:</strong></td>
         <td align="left"><?php echo $row_rsAlumnos['aula']; ?></td>
       </tr>
-        </table></div></td>
+      <tr>
+        <td align="right"><strong>REUNION DE PADRES:</strong></td>
+        <td align="left"><?php echo $row_rsAlumnos['reunion_padres']; ?></td>
+        </tr>
+      <tr>
+        <td align="right"><strong>CURSO DE INDUCCION:</strong></td>
+        <td align="left">Miercoles 11 de agosto</td>
+      </tr>
+      <tr>
+        <td align="right"><strong>LUGAR DEL CURSO DE INDUCCION:</strong></td>
+        <td align="left">Será en línea, a través de la plataforma Classroom. Necesitas activar tu cuenta de correo institucional (revisa video tutorial =&gt; <a href="http://youtu.be/HKkf1HQlnKo" target="_blank">http://youtu.be/HKkf1HQlnKo</a>) y adquirir el manual de inducción en la escuela, a partir del 10 de agosto.</td>
+      </tr>
+      <tr>
+        <td align="right"><strong>NOTAS GENERALES:</strong></td>
+        <td align="left"><?php echo str_replace("\n", "<br>", $row_rsAlumnos['nota_de_int']); ?></td>
+      </tr>
+        </table>
+    </div></td>
   </tr>
   <?php } // Show if recordset not empty ?>
   <tr>

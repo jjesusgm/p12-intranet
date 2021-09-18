@@ -320,33 +320,33 @@ Ninguna sesion iniciada&nbsp;&nbsp;&nbsp;&nbsp;<a href="../login.php">Iniciar se
           </tr>
           <tr>
             <td align="right" class="TablaEntregaNIP">CURP*:</td>
-            <td class="TablaEntregaNIP"><input name="fCurp" type="text" required id="fCurp" pattern=".{18,}" title="18 caracteres exactos (Obligatorio)" value="<?php echo $row_rsAlumno['curp']; ?>" maxlength="18" <?php if($row_rsAlumno['semestre'] != 1) echo "readonly"; ?>>
+            <td class="TablaEntregaNIP"><input name="fCurp" type="text" required id="fCurp" pattern=".{18,}" title="18 caracteres exactos (Obligatorio)" value="<?php echo $row_rsAlumno['curp']; ?>" maxlength="18" <?php if($row_rsAlumno['semestre'] != 1 && strlen($row_rsAlumno['curp']) == 18) echo "readonly"; ?>>
               18 caracteres exactos</td>
           </tr>
           <tr>
             <td align="right" class="TablaEntregaNIP">Apellido 1*:</td>
-            <td class="TablaEntregaNIP"><input name="fAp1" type="text" required id="fAp1" title="Primer apellido del estudiante, antes apellido paterno (Obligatorio)" value="<?php echo $row_rsAlumno['ap1']; ?>" maxlength="30" <?php if($row_rsAlumno['semestre'] != 1) echo "readonly"; ?>></td>
+            <td class="TablaEntregaNIP"><input name="fAp1" type="text" required id="fAp1" title="Primer apellido del estudiante, antes apellido paterno (Obligatorio)" value="<?php echo $row_rsAlumno['ap1']; ?>" maxlength="30" <?php if($row_rsAlumno['semestre'] != 1 && strlen($row_rsAlumno['ap1']) > 0) echo "readonly"; ?>></td>
           </tr>
           <tr>
             <td align="right" class="TablaEntregaNIP">Apellido 2:</td>
-            <td class="TablaEntregaNIP"><input name="fAp2" type="text" id="fAp2" title="Segundo apellido del estudiante, antes apellido materno (Opcional)" value="<?php echo $row_rsAlumno['ap2']; ?>" maxlength="30" <?php if($row_rsAlumno['semestre'] != 1) echo "readonly"; ?>></td>
+            <td class="TablaEntregaNIP"><input name="fAp2" type="text" id="fAp2" title="Segundo apellido del estudiante, antes apellido materno (Opcional)" value="<?php echo $row_rsAlumno['ap2']; ?>" maxlength="30" <?php if($row_rsAlumno['semestre'] != 1 && strlen($row_rsAlumno['ap2']) > 0) echo "readonly"; ?>></td>
           </tr>
           <tr>
             <td align="right" class="TablaEntregaNIP">Nombre*:</td>
-            <td class="TablaEntregaNIP"><input name="fNombre" type="text" required id="fNombre" title="Nombre(s) del estudiante (Obligatorio)" value="<?php echo $row_rsAlumno['nombre']; ?>" maxlength="30" <?php if($row_rsAlumno['semestre'] != 1) echo "readonly"; ?>></td>
+            <td class="TablaEntregaNIP"><input name="fNombre" type="text" required id="fNombre" title="Nombre(s) del estudiante (Obligatorio)" value="<?php echo $row_rsAlumno['nombre']; ?>" maxlength="30" <?php if($row_rsAlumno['semestre'] != 1 && strlen($row_rsAlumno['nombre']) > 0) echo "readonly"; ?>></td>
           </tr>
           <tr>
             <td align="right" class="TablaEntregaNIP">Fecha nacimiento*:</td>
-            <td class="TablaEntregaNIP"><input name="fFecNac" type="text" required id="fFecNac" pattern="(?:19|20)[0-9]{2}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])-(?:30))|(?:(?:0[13578]|1[02])-31))" title="Fecha de nacimiento del estudiante con el formato aaaa-mm-dd (Obligatorio)" value="<?php echo $row_rsAlumno['fec_nac']; ?>" maxlength="10" <?php if($row_rsAlumno['semestre'] != 1) echo "readonly"; ?>>
+            <td class="TablaEntregaNIP"><input name="fFecNac" type="text" required id="fFecNac" pattern="(?:19|20)[0-9]{2}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])-(?:30))|(?:(?:0[13578]|1[02])-31))" title="Fecha de nacimiento del estudiante con el formato aaaa-mm-dd (Obligatorio)" value="<?php echo $row_rsAlumno['fec_nac']; ?>" maxlength="10" <?php if($row_rsAlumno['semestre'] != 1 && $row_rsAlumno['fec_nac'] != '0000-00-00') echo "readonly"; ?>>
               aaaa-mm-dd</td>
           </tr>
           <tr>
             <td align="right" class="TablaEntregaNIP"><label for="fSituacion">Situación*:</label></td>
-            <td class="TablaEntregaNIP"><input name="fSituacion" type="text" id="fSituacion" value="<?php echo $row_rsAlumno['situacion']; ?>" maxlength="15" title="Situación actual, por ejemplo REINSCRITO, CONCLUYE, etcétera"></td>
+            <td class="TablaEntregaNIP"><input name="fSituacion" type="text" id="fSituacion" value="<?php echo $row_rsAlumno['situacion']; ?>" maxlength="15" title="Situación actual, por ejemplo REINSCRITO, CONCLUYE, etcétera" readonly></td>
           </tr>
           <tr>
             <td align="right" class="TablaEntregaNIP"><label for="fCausa">Causa:</label></td>
-            <td class="TablaEntregaNIP"><input name="fCausa" type="text" id="fCausa" value="<?php echo $row_rsAlumno['causa']; ?>"></td>
+            <td class="TablaEntregaNIP"><input name="fCausa" type="text" id="fCausa" value="<?php echo $row_rsAlumno['causa']; ?>" readonly></td>
           </tr>
           <tr>
             <td align="right" class="TablaEntregaNIP"><label for="fSemestre">Semestre*:</label></td>
@@ -354,11 +354,11 @@ Ninguna sesion iniciada&nbsp;&nbsp;&nbsp;&nbsp;<a href="../login.php">Iniciar se
           </tr>
           <tr>
             <td align="right" class="TablaEntregaNIP"><label for="fModalidad">Modalidad*:</label></td>
-            <td class="TablaEntregaNIP"><input name="fModalidad" type="text" id="fModalidad" title="Modalidad de estudio (Obligatorio)" value="<?php echo $row_rsAlumno['modalidad']; ?>"></td>
+            <td class="TablaEntregaNIP"><input name="fModalidad" type="text" id="fModalidad" title="Modalidad de estudio (Obligatorio)" value="<?php echo $row_rsAlumno['modalidad']; ?>" readonly></td>
           </tr>
           <tr>
             <td align="right" class="TablaEntregaNIP">Correo*:</td>
-            <td class="TablaEntregaNIP"><input name="fCorreo" type="email" id="fCorreo" value="<?php echo $row_rsAlumno['correo']; ?>" size="40" maxlength="100" required pattern=".{1,}" title="Correo electrónico (Obligatorio)"></td>
+            <td class="TablaEntregaNIP"><input name="fCorreo" type="email" id="fCorreo" value="<?php echo $row_rsAlumno['correo']; ?>" size="40" maxlength="100" required pattern=".{1,}" title="Correo electrónico (Obligatorio)" readonly></td>
           </tr>
           <tr>
             <td align="right" class="TablaEntregaNIP">Tel. celular*:</td>
