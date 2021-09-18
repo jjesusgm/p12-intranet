@@ -8,4 +8,12 @@
 <file name="inv_mobiliario.php" server="148.202.47.2" local="132114882086273112" remote="132115062000000000" Dst="2" />
 <file name="inv_mob_add.php" server="148.202.47.2" local="132114880734653963" remote="132115060800000000" Dst="2" />
 <file name="inv_mob_edit.php" server="148.202.47.2" local="132114881478248543" remote="132115061400000000" Dst="2" />
+<file name="index.php" server="148.202.47.2/../intranet/" local="132473567570578518" remote="132764397600000000" Dst="2" />
+<file name="inv_computo.php" server="148.202.47.2/../intranet/" local="132473554196566800" remote="132764397600000000" Dst="2" />
+<file name="inv_comp_add.php" server="148.202.47.2/../intranet/" local="132473567570578518" remote="132764397600000000" Dst="2" />
+<file name="inv_comp_delete.php" server="148.202.47.2/../intranet/" local="132473567570578518" remote="132764397600000000" Dst="2" />
+<file name="inv_comp_edit.php" server="148.202.47.2/../intranet/" local="132473567570578518" remote="132764397600000000" Dst="2" />
+<file name="inv_mobiliario.php" server="148.202.47.2/../intranet/" local="132473554196579369" remote="132764397600000000" Dst="2" />
+<file name="inv_mob_add.php" server="148.202.47.2/../intranet/" local="132473567570578518" remote="132764397600000000" Dst="2" />
+<file name="inv_mob_edit.php" server="148.202.47.2/../intranet/" local="132473567570618398" remote="132764397600000000" Dst="2" />
 </dwsync>

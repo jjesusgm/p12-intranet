@@ -5,4 +5,9 @@
 <file name="usr_delete.php.mno" server="148.202.47.2" local="131565602876841672" remote="132112692000000000" Dst="2" />
 <file name="usr_edit.php.mno" server="148.202.47.2" local="132118772540579284" remote="132112692000000000" Dst="2" />
 <file name="nips_alumnos.php.mno" server="148.202.47.2" local="131591649879515939" remote="132112692000000000" Dst="2" />
+<file name="index.php.mno" server="148.202.47.2/../intranet/" local="132473554197063246" remote="132764398800000000" Dst="2" />
+<file name="nips_alumnos.php.mno" server="148.202.47.2/../intranet/" local="132473554197063246" remote="132764398800000000" Dst="2" />
+<file name="usr_add.php.mno" server="148.202.47.2/../intranet/" local="132473554197063246" remote="132764398800000000" Dst="2" />
+<file name="usr_delete.php.mno" server="148.202.47.2/../intranet/" local="132473554197073218" remote="132764398800000000" Dst="2" />
+<file name="usr_edit.php.mno" server="148.202.47.2/../intranet/" local="132473554197073218" remote="132764398800000000" Dst="2" />
 </dwsync>

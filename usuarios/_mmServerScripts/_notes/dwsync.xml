@@ -4,4 +4,6 @@
 <file name="mysql.php" server="C:/xampp/htdocs/8602328/usuarios/" local="131556202227970927" remote="131556202220000000" Dst="1" />
 <file name="MMHTTPDB.php" server="148.202.47.2" local="131556202226914971" remote="132113549400000000" Dst="2" />
 <file name="mysql.php" server="148.202.47.2" local="131556202227970927" remote="132113549400000000" Dst="2" />
+<file name="MMHTTPDB.php" server="148.202.47.2/../intranet/" local="132473554197033391" remote="132764398200000000" Dst="2" />
+<file name="mysql.php" server="148.202.47.2/../intranet/" local="132473554197043376" remote="132764398200000000" Dst="2" />
 </dwsync>

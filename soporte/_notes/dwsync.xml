@@ -7,4 +7,11 @@
 <file name="entrada_bitacora_computo_add.php" server="148.202.47.2" local="132473141996724813" remote="132473322600000000" Dst="2" />
 <file name="entradas_bitacora_computo.php" server="148.202.47.2" local="132473142248590879" remote="132473322600000000" Dst="2" />
 <file name="equipo_computo_add.php" server="148.202.47.2" local="132473142409208718" remote="132473322600000000" Dst="2" />
+<file name="bitacora_computo_list.php" server="148.202.47.2/../intranet/" local="132473567570778404" remote="132764398200000000" Dst="2" />
+<file name="entradas_bitacora_computo.php" server="148.202.47.2/../intranet/" local="132473567570778404" remote="132764398200000000" Dst="2" />
+<file name="entrada_bitacora_computo_add.php" server="148.202.47.2/../intranet/" local="132473567570778404" remote="132764398200000000" Dst="2" />
+<file name="equipo_computo_add.php" server="148.202.47.2/../intranet/" local="132473567570778404" remote="132764398200000000" Dst="2" />
+<file name="index.php" server="148.202.47.2/../intranet/" local="132473567570778404" remote="132764398200000000" Dst="2" />
+<file name="solicitudes.php" server="148.202.47.2/../intranet/" local="132473567570778404" remote="132764398200000000" Dst="2" />
+<file name="solicitudes_edit.php" server="148.202.47.2/../intranet/" local="132473567570818396" remote="132764398200000000" Dst="2" />
 </dwsync>

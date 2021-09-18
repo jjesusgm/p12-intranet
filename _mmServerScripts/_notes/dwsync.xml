@@ -6,4 +6,6 @@
 <file name="mysql.php" server="148.202.47.2" local="131558256921301694" remote="132113549400000000" Dst="2" />
 <file name="MMHTTPDB.php" server="C:/xampp/htdocs/p12-intranet/" local="132473554196008251" remote="132473554190000000" Dst="2" />
 <file name="mysql.php" server="C:/xampp/htdocs/p12-intranet/" local="132473554196028161" remote="132473554190000000" Dst="2" />
+<file name="MMHTTPDB.php" server="148.202.47.2/../intranet/" local="132473554196008251" remote="132764398200000000" Dst="2" />
+<file name="mysql.php" server="148.202.47.2/../intranet/" local="132473554196028161" remote="132764398200000000" Dst="2" />
 </dwsync>

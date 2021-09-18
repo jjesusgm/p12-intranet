@@ -18,4 +18,22 @@
 <file name="icono_sop_sol_tipos.jpg" server="148.202.47.2" local="131614264844696428" remote="132113549400000000" Dst="2" />
 <file name="icono_sop_status.png" server="148.202.47.2" local="131614256692675963" remote="132113549400000000" Dst="2" />
 <file name="icono_ubicaciones.jpg" server="148.202.47.2" local="131612513492638015" remote="132113549400000000" Dst="2" />
+<file name="icono_campus.jpg" server="148.202.47.2/../intranet/" local="132473554196753172" remote="132764398200000000" Dst="2" />
+<file name="icono_ciclos.png" server="148.202.47.2/../intranet/" local="132473554196753172" remote="132764398200000000" Dst="2" />
+<file name="icono_general.png" server="148.202.47.2/../intranet/" local="132473554196763153" remote="132764398200000000" Dst="2" />
+<file name="icono_carreras.png" server="148.202.47.2/../intranet/" local="132473554196753172" remote="132764398200000000" Dst="2" />
+<file name="icono_inventario.jpg" server="148.202.47.2/../intranet/" local="132473554196793516" remote="132764398200000000" Dst="2" />
+<file name="icono_inv_comp_marcas.png" server="148.202.47.2/../intranet/" local="132473554196763153" remote="132764398200000000" Dst="2" />
+<file name="icono_inv_comp_tipos.png" server="148.202.47.2/../intranet/" local="132473554196773058" remote="132764398200000000" Dst="2" />
+<file name="icono_inv_comp_tipos_monitor.jpg" server="148.202.47.2/../intranet/" local="132473554196773058" remote="132764398200000000" Dst="2" />
+<file name="icono_inv_mob_colores.png" server="148.202.47.2/../intranet/" local="132473554196773058" remote="132764398200000000" Dst="2" />
+<file name="icono_inv_mob_marcas.jpg" server="148.202.47.2/../intranet/" local="132473554196783343" remote="132764398200000000" Dst="2" />
+<file name="icono_inv_mob_materiales.jpg" server="148.202.47.2/../intranet/" local="132473554196783343" remote="132764398200000000" Dst="2" />
+<file name="icono_lista_nrc.png" server="148.202.47.2/../intranet/" local="132473554196793516" remote="132764398200000000" Dst="2" />
+<file name="icono_inv_mob_tipos.png" server="148.202.47.2/../intranet/" local="132473554196793516" remote="132764398200000000" Dst="2" />
+<file name="icono_niveles_de_acceso.png" server="148.202.47.2/../intranet/" local="132473554196804338" remote="132764398200000000" Dst="2" />
+<file name="icono_soporte.png" server="148.202.47.2/../intranet/" local="132473554196815516" remote="132764398200000000" Dst="2" />
+<file name="icono_sop_sol_tipos.jpg" server="148.202.47.2/../intranet/" local="132473554196804338" remote="132764398200000000" Dst="2" />
+<file name="icono_sop_status.png" server="148.202.47.2/../intranet/" local="132473554196804338" remote="132764398200000000" Dst="2" />
+<file name="icono_ubicaciones.jpg" server="148.202.47.2/../intranet/" local="132473554196815516" remote="132764398200000000" Dst="2" />
 </dwsync>

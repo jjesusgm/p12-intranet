@@ -3,7 +3,7 @@
 <file name="cartel_becas_bbbj.png" server="148.202.47.2" local="132385845098964219" remote="132386026800000000" Dst="2" />
 <file name="cartel_becas_p12.png" server="148.202.47.2" local="132387531354326326" remote="132387712200000000" Dst="2" />
 <file name="banner_actualizacion_padron_becas_bbbj.jpg" server="148.202.47.2" local="132449425664663170" remote="132453838200000000" Dst="2" />
-<file name="banner_actualizacion_padron_becas_bbbj.jpg" server="148.202.47.2/../intranet/" local="132528722830635168" remote="132453874200000000" Dst="1" />
-<file name="cartel_becas_bbbj.png" server="148.202.47.2/../intranet/" local="132528722851707235" remote="132386062800000000" Dst="1" />
-<file name="cartel_becas_p12.png" server="148.202.47.2/../intranet/" local="132528722863973298" remote="132387748200000000" Dst="1" />
+<file name="banner_actualizacion_padron_becas_bbbj.jpg" server="148.202.47.2/../intranet/" local="132528722830635168" remote="132764397600000000" Dst="2" />
+<file name="cartel_becas_bbbj.png" server="148.202.47.2/../intranet/" local="132528722851707235" remote="132764397600000000" Dst="2" />
+<file name="cartel_becas_p12.png" server="148.202.47.2/../intranet/" local="132528722863973298" remote="132764397600000000" Dst="2" />
 </dwsync>

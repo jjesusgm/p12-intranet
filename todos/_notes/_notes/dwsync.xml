@@ -3,4 +3,7 @@
 <file name="perfil_edit.php.mno" server="148.202.47.2" local="131595126671072566" remote="132113549400000000" Dst="2" />
 <file name="perfil_view.php.mno" server="148.202.47.2" local="131591710428912664" remote="132113549400000000" Dst="2" />
 <file name="sol_cambio_nip.php.mno" server="148.202.47.2" local="131641915496785547" remote="132113549400000000" Dst="2" />
+<file name="perfil_edit.php.mno" server="148.202.47.2/../intranet/" local="132473554197012870" remote="132764398800000000" Dst="2" />
+<file name="perfil_view.php.mno" server="148.202.47.2/../intranet/" local="132473554197013439" remote="132764398800000000" Dst="2" />
+<file name="sol_cambio_nip.php.mno" server="148.202.47.2/../intranet/" local="132473554197013439" remote="132764398800000000" Dst="2" />
 </dwsync>

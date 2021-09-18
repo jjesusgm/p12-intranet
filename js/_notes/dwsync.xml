@@ -8,4 +8,11 @@
 <file name="set_caret_pos_test.html" server="148.202.47.2" local="131641056644938915" remote="132113549400000000" Dst="2" />
 <file name="fechas.js" server="148.202.47.2" local="131648778529186623" remote="132113549400000000" Dst="2" />
 <file name="menus.js" server="C:/xampp/htdocs/intranet_p12/" local="132440957659421216" remote="132440957650000000" Dst="2" />
+<file name="fechas.js" server="148.202.47.2/../intranet/" local="132473554196590242" remote="132764397600000000" Dst="2" />
+<file name="menus.js" server="148.202.47.2/../intranet/" local="132473554196590242" remote="132764397600000000" Dst="2" />
+<file name="menus_test.php" server="148.202.47.2/../intranet/" local="132473554196590242" remote="132764397600000000" Dst="2" />
+<file name="set_caret_pos.js" server="148.202.47.2/../intranet/" local="132473554196590242" remote="132764398200000000" Dst="2" />
+<file name="set_caret_pos_test.html" server="148.202.47.2/../intranet/" local="132473554196600218" remote="132764398200000000" Dst="2" />
+<file name="view_pwd.js" server="148.202.47.2/../intranet/" local="132473554196600218" remote="132764398200000000" Dst="2" />
+<file name="view_pwd_test.html" server="148.202.47.2/../intranet/" local="132473554196600218" remote="132764398200000000" Dst="2" />
 </dwsync>

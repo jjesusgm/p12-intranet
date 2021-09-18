@@ -11,4 +11,14 @@
 <file name=".htaccess" server="148.202.47.2" local="131665661378060063" remote="132101119200000000" Dst="2" />
 <file name="log_login.php" server="148.202.47.2" local="132115061490947232" remote="132473317800000000" Dst="2" />
 <file name="index.php" server="C:/xampp/htdocs/intranet_p12/" local="132115029285987589" remote="132115029280000000" Dst="2" />
+<file name="favicon.ico" server="148.202.47.2/../intranet/" local="132473554196311878" remote="132764397600000000" Dst="2" />
+<file name="index.php" server="148.202.47.2/../intranet/" local="132473567570578518" remote="132764397600000000" Dst="2" />
+<file name="ipaddress.php" server="148.202.47.2/../intranet/" local="132473554196579369" remote="132764397600000000" Dst="2" />
+<file name="login.php" server="148.202.47.2/../intranet/" local="132473567570618398" remote="132764398200000000" Dst="2" />
+<file name="login_error.php" server="148.202.47.2/../intranet/" local="132473567570618398" remote="132764398200000000" Dst="2" />
+<file name="log_login.php" server="148.202.47.2/../intranet/" local="132473554196610550" remote="132764398200000000" Dst="2" />
+<file name="not-found-page.php" server="148.202.47.2/../intranet/" local="132473567570738399" remote="132764398200000000" Dst="2" />
+<file name="pagina_restringida.php" server="148.202.47.2/../intranet/" local="132473567570778404" remote="132764398200000000" Dst="2" />
+<file name="README.md" server="148.202.47.2/../intranet/" local="132469561940420332" remote="132764398200000000" Dst="2" />
+<file name="upload.php" server="148.202.47.2/../intranet/" local="132473567570818396" remote="132764398200000000" Dst="2" />
 </dwsync>

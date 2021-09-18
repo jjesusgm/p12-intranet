@@ -3,4 +3,6 @@
 <file name="conP12.php" server="148.202.47.2" local="131572593981610447" remote="132113549400000000" Dst="2" />
 <file name="conBecas.php" server="148.202.47.2" local="132382708741557138" remote="132382935000000000" Dst="2" />
 <file name="conBecas.php" server="C:/xampp/htdocs/intranet_p12/" local="132382708741557138" remote="132382708740000000" Dst="2" />
+<file name="conBecas.php" server="148.202.47.2/../intranet/" local="132473554195967755" remote="132764397600000000" Dst="2" />
+<file name="conP12.php" server="148.202.47.2/../intranet/" local="132473554195978089" remote="132764397600000000" Dst="2" />
 </dwsync>
