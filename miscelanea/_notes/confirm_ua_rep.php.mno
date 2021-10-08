@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsAlumno" value="name:codigo;datatype:string,name:nombre;datatype:string,name:crn1;datatype:string,name:cnfrm1;datatype:int,name:ua1;datatype:string,name:crn2;datatype:string,name:cnfrm2;datatype:int,name:ua2;datatype:string,name:crn3;datatype:string,name:cnfrm3;datatype:int,name:ua3;datatype:string,name:crn4;datatype:string,name:cnfrm4;datatype:int,name:ua4;datatype:string,name:crn5;datatype:string,name:cnfrm5;datatype:int,name:ua5;datatype:string,name:crn6;datatype:string,name:cnfrm6;datatype:int,name:ua6;datatype:string,name:crn7;datatype:string,name:cnfrm7;datatype:int,name:ua7;datatype:string,name:crn8;datatype:string,name:cnfrm8;datatype:int,name:ua8;datatype:string,name:crn9;datatype:string,name:cnfrm9;datatype:int,name:ua9;datatype:string" />
+</info>
