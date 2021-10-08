@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<info>
-	<infoitem key="UD_rsAlumno" value="name:codigo;datatype:string,name:nombre;datatype:string,name:plantel;datatype:string,name:grupo;datatype:string,name:seccion;datatype:string,name:aula;datatype:string,name:detalles;datatype:string" />
-</info>
