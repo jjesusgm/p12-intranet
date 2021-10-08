@@ -50,6 +50,7 @@ body {
 </style>
 <link href="../css/divs.css" rel="stylesheet" type="text/css" />
 <link href="../css/enlaces.css" rel="stylesheet" type="text/css" />
+<link href="../css/form_validation.css" rel="stylesheet" type="text/css" />
 <link href="../css/imagenes.css" rel="stylesheet" type="text/css" />
 <link href="../css/menu1.css" rel="stylesheet" type="text/css" />
 <link href="../css/tablas.css" rel="stylesheet" type="text/css" />
@@ -71,31 +72,50 @@ Ninguna sesion iniciada&nbsp;&nbsp;&nbsp;&nbsp;<a href="../login.php">Iniciar se
 <script language="javascript" type="text/javascript">muestraMenuMain("<?php if(isset($_SESSION['MM_UserGroup'])){echo $_SESSION['MM_UserGroup'];}else {echo '';} ?>", "../", "");</script>
 </div>
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Path" -->
-<div id="div_hdr_path">&nbsp;Inicio &gt; Becas</div>
+<div id="div_hdr_path">&nbsp;Inicio &gt; Miscelanea &gt; UA por repetir &gt; Buscar</div>
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Contenido" -->
 <div id="div_contenido">
   <table width="90%" align="center">
     <tr>
-      <td><h1 class="H_Estilo1">Pagina de apoyo a Becas</h1></td>
+      <td><h1 class="H_Estilo1">Escribe tu código de alumno para confirma las Unidades de Aprendizaje que vas a repetir</h1></td>
     </tr>
     <tr>
-      <td><h3 class="H_Estilo2 margin_none">Mensaje del sistema</h3></td>
+      <td align="center"><form name="form1" method="get" action="confirm_ua_rep.php">
+        <div class="DivShadowMsgLogin">
+          <table width="350" class="tabla_info_msg">
+            <tr>
+              <th colspan="2" align="left" scope="col">Escribe tu código</th>
+            </tr>
+            <tr>
+              <td align="right">&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="100" align="right">Código*</td>
+              <td><input name="codigo" type="text" id="codigo" size="15" maxlength="9" required pattern="[0-9]{9,}">
+                <input type="submit" name="bEnviar" id="bEnviar" value="Enviar"></td>
+            </tr>
+            <tr>
+              <td align="right">&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr bgcolor="#FFFF00">
+              <td colspan="2" align="center">Escribe tu código de estudiante, recuerda que debe ser de 9 dígitos.</td>
+            </tr>
+          </table>
+        </div>
+      </form>
+	  </td>
     </tr>
-    <tr>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td align="center"><table width="100%" class="TBL_MsgOk">
-        <tr>
-          <th scope="row">&nbsp;</th>
-          <td><p>Gracias!!!<br>Tu información se actualizó correctamente en la base de datos</p></td>
-        </tr>
-      </table>
-      <p><a href="index.php" class="estilo3">Inicio de becas</a> | <a href="consulta_bbbj.php" class="estilo3">Nueva búsqueda</a></p></td>
-    </tr>
-    <tr>
-      <td align="center">&nbsp;</td>
-    </tr>
+<tr>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="../asist_pres/index.php" class="estilo3">Regresar</a></td>
+  </tr>
+  <tr>
+    <td align="center">&nbsp;</td>
+  </tr>
   </table>
 </div>
 <!-- InstanceEndEditable -->

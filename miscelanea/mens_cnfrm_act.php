@@ -71,12 +71,12 @@ Ninguna sesion iniciada&nbsp;&nbsp;&nbsp;&nbsp;<a href="../login.php">Iniciar se
 <script language="javascript" type="text/javascript">muestraMenuMain("<?php if(isset($_SESSION['MM_UserGroup'])){echo $_SESSION['MM_UserGroup'];}else {echo '';} ?>", "../", "");</script>
 </div>
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Path" -->
-<div id="div_hdr_path">&nbsp;Inicio &gt; Becas</div>
+<div id="div_hdr_path">&nbsp;Inicio &gt; UA por repetir &gt; Mensaje de confirmación</div>
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Contenido" -->
 <div id="div_contenido">
   <table width="90%" align="center">
     <tr>
-      <td><h1 class="H_Estilo1">Pagina de apoyo a Becas</h1></td>
+      <td><h1 class="H_Estilo1">Confirma las Unidades de Aprendizaje que vas a repetir</h1></td>
     </tr>
     <tr>
       <td><h3 class="H_Estilo2 margin_none">Mensaje del sistema</h3></td>
@@ -88,10 +88,10 @@ Ninguna sesion iniciada&nbsp;&nbsp;&nbsp;&nbsp;<a href="../login.php">Iniciar se
       <td align="center"><table width="100%" class="TBL_MsgOk">
         <tr>
           <th scope="row">&nbsp;</th>
-          <td><p>Gracias!!!<br>Tu información se actualizó correctamente en la base de datos</p></td>
+          <td scope="row"><p>Gracias!!!<br>Tu información se actualizó correctamente en la base de datos</p></td>
         </tr>
       </table>
-      <p><a href="index.php" class="estilo3">Inicio de becas</a> | <a href="consulta_bbbj.php" class="estilo3">Nueva búsqueda</a></p></td>
+      <p><a href="../index.php" class="estilo3">Inicio</a> | <a href="ua_repetir.php" class="estilo3">Nueva búsqueda</a></p></td>
     </tr>
     <tr>
       <td align="center">&nbsp;</td>

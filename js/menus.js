@@ -11,10 +11,10 @@ function muestraMenuMain(menu_group, link_pre){
 	var administrativo_submenu = 		[[],[]];
 	var administrativo_submenu_links =	[[],[]];
 	//Menu para el grupo de Alumnos
-	var alumno_menu = 					["Inicio","Mi perfil","Alumnos"];
-	var alumno_menu_links =				["index.php","todos/perfil_view.php","alumnos/index.php"];
-	var alumno_submenu = 				[[],[],[]];
-	var alumno_submenu_links =			[[],[],[]];
+	var alumno_menu = 					["Inicio","Mi perfil","Alumnos","Clases presenciales"];
+	var alumno_menu_links =				["index.php","todos/perfil_view.php","alumnos/index.php","asist_pres/index.php"];
+	var alumno_submenu = 				[[],[],[],[]];
+	var alumno_submenu_links =			[[],[],[],[]];
 	//Menu para el grupo de Profesores
 	var profesor_menu = 				["Inicio","Mi perfil","NIPs Alumnos"];
 	var profesor_menu_links =			["index.php","todos/perfil_view.php","usuarios/nips_alumnos.php"];
@@ -31,10 +31,10 @@ function muestraMenuMain(menu_group, link_pre){
 	var soporte_submenu = 				[[],[],["Solicitudes","Bitácoras cómputo"],[],[]];
 	var soporte_submenu_links =			[[],[],["soporte/solicitudes.php","soporte/bitacora_computo_list.php"],[],[]];
 	//Menu por default
-	var default_menu = 					["Inicio","1er ingreso","Semestre Base","Becas","Contacto","Ayuda"];
-	var default_menu_links =			["index.php","inf_1er_ing/index.php","sem_base/index.php","becas/index.php","contacto/index.php","ayuda/index.php"];
-	var default_submenu = 				[[],[],[],["Benito Juarez"],[],[]];
-	var default_submenu_links =			[[],[],[],["becas/consulta_bbbj.php"],[],[]];
+	var default_menu = 					["Inicio","1er ingreso","Semestre Base","Becas","Contacto","Miscelanea","Ayuda"];
+	var default_menu_links =			["index.php","inf_1er_ing/index.php","sem_base/index.php","becas/index.php","contacto/index.php","miscelanea/index.php","ayuda/index.php"];
+	var default_submenu = 				[[],[],[],["Benito Juarez"],[],["Clases presenciales","Repetidores"],[]];
+	var default_submenu_links =			[[],[],[],["becas/consulta_bbbj.php"],[],["asist_pres/index.php","miscelanea/ua_repetir.php"],[]];
 	//Variable para armar el string del menu
 	var menu_string = "";
 	
@@ -158,26 +158,26 @@ function muestraMenuMain(menu_group, link_pre){
 
 function muestraMenuFooter(menu_group, link_pre){
 	//Menu para el grupo de Administradores
-	var administrador_menu = 			["Inicio","Mi perfil","Inventario","Mant. a BD","Soporte","Usuarios","Becas"];
-	var administrador_menu_links =		["index.php","todos/perfil_view.php","inventario/index.php","mant_bd/index.php","soporte/index.php","usuarios/index.php","becas/adm_becas.php"];
+	var administrador_menu = 		["Inicio","Mi perfil","Inventario","Mant. a BD","Soporte","Usuarios","Becas"];
+	var administrador_menu_links =	["index.php","todos/perfil_view.php","inventario/index.php","mant_bd/index.php","soporte/index.php","usuarios/index.php","becas/adm_becas.php"];
 	//Menu para el grupo de Administrativos
-	var administrativo_menu = 			["Inicio","Mi perfil"];
-	var administrativo_menu_links =		["index.php","todos/perfil_view.php"];
+	var administrativo_menu = 		["Inicio","Mi perfil"];
+	var administrativo_menu_links =	["index.php","todos/perfil_view.php"];
 	//Menu para el grupo de Alumnos
-	var alumno_menu = 					["Inicio","Mi perfil","Alumnos"];
-	var alumno_menu_links =				["index.php","todos/perfil_view.php","alumnos/index.php"];
+	var alumno_menu = 				["Inicio","Mi perfil","Alumnos","Clases presenciales"];
+	var alumno_menu_links =			["index.php","todos/perfil_view.php","alumnos/index.php","asist_pres/index.php"];
 	//Menu para el grupo de Profesores
-	var profesor_menu = 				["Inicio","Mi perfil","NIPs Alumnos"];
-	var profesor_menu_links =			["index.php","todos/perfil_view.php","usuarios/nips_alumnos.php"];
+	var profesor_menu = 			["Inicio","Mi perfil","NIPs Alumnos"];
+	var profesor_menu_links =		["index.php","todos/perfil_view.php","usuarios/nips_alumnos.php"];
 	//Menu para el grupo de Servicio Social
-	var ssocial_menu = 					["Inicio","Mi perfil","Alumnos","NIPs Alumnos"];
-	var ssocial_menu_links =			["index.php","todos/perfil_view.php","alumnos/index.php","usuarios/nips_alumnos.php"];
+	var ssocial_menu = 				["Inicio","Mi perfil","Alumnos","NIPs Alumnos"];
+	var ssocial_menu_links =		["index.php","todos/perfil_view.php","alumnos/index.php","usuarios/nips_alumnos.php"];
 	//Menu para el grupo de Soporte
-	var soporte_menu = 					["Inicio","Mi perfil","Soporte","Usuarios","NIPs Alumnos"];
-	var soporte_menu_links =			["index.php","todos/perfil_view.php","soporte/index.php","usuarios/index.php","usuarios/nips_alumnos.php"];
+	var soporte_menu = 				["Inicio","Mi perfil","Soporte","Usuarios","NIPs Alumnos"];
+	var soporte_menu_links =		["index.php","todos/perfil_view.php","soporte/index.php","usuarios/index.php","usuarios/nips_alumnos.php"];
 	//Menu por default
-	var default_menu = 					["Inicio","1er ingreso","Semestre Base","Becas","Contacto","Ayuda"];
-	var default_menu_links =			["index.php","inf_1er_ing/index.php","sem_base/index.php","becas/index.php","contacto/index.php","ayuda/index.php"];
+	var default_menu = 				["Inicio","1er ingreso","Semestre Base","Becas","Contacto","Miscelanea","Ayuda"];
+	var default_menu_links =		["index.php","inf_1er_ing/index.php","sem_base/index.php","becas/index.php","contacto/index.php","miscelanea/index.php","ayuda/index.php"];
 	//Variable para armar el string del menu
 	var menu_string = "";
 	

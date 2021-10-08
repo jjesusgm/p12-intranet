@@ -71,30 +71,27 @@ Ninguna sesion iniciada&nbsp;&nbsp;&nbsp;&nbsp;<a href="../login.php">Iniciar se
 <script language="javascript" type="text/javascript">muestraMenuMain("<?php if(isset($_SESSION['MM_UserGroup'])){echo $_SESSION['MM_UserGroup'];}else {echo '';} ?>", "../", "");</script>
 </div>
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Path" -->
-<div id="div_hdr_path">&nbsp;Inicio &gt; Becas</div>
+<div id="div_hdr_path">&nbsp;Inicio &gt; Miscelanea</div>
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Contenido" -->
 <div id="div_contenido">
   <table width="90%" align="center">
     <tr>
-      <td><h1 class="H_Estilo1">Pagina de apoyo a Becas</h1></td>
+      <td><h1 class="H_Estilo1">Miscelanea</h1></td>
     </tr>
     <tr>
-      <td><h3 class="H_Estilo2 margin_none">Mensaje del sistema</h3></td>
+      <td><table width="100%">
+        <tr>
+          <td>&nbsp;</td>
+          <td>- Clases presenciales</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>- Repetidores</td>
+        </tr>
+      </table></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td align="center"><table width="100%" class="TBL_MsgOk">
-        <tr>
-          <th scope="row">&nbsp;</th>
-          <td><p>Gracias!!!<br>Tu información se actualizó correctamente en la base de datos</p></td>
-        </tr>
-      </table>
-      <p><a href="index.php" class="estilo3">Inicio de becas</a> | <a href="consulta_bbbj.php" class="estilo3">Nueva búsqueda</a></p></td>
-    </tr>
-    <tr>
-      <td align="center">&nbsp;</td>
     </tr>
   </table>
 </div>
