@@ -171,7 +171,7 @@ if (isset($_SESSION['FILTRO_Ap2'])) {
   $varAp2_rsPadron = $_SESSION['FILTRO_Ap2'];
 }
 mysql_select_db($database_conBecas, $conBecas);
-$query_rsPadron = sprintf("SELECT * FROM padron_bbbj WHERE codigo LIKE %s AND nom_bec LIKE %s AND ap1 LIKE %s AND ap2 LIKE %s ORDER BY ap1, ap2, nom_bec ASC", GetSQLValueString($varCodigo_rsPadron, "text"),GetSQLValueString($varNomBec_rsPadron, "text"),GetSQLValueString($varAp1_rsPadron, "text"),GetSQLValueString($varAp2_rsPadron, "text"));
+$query_rsPadron = sprintf("SELECT * FROM padron_bbbj WHERE codigo LIKE %s AND nombre LIKE %s AND ap1 LIKE %s AND ap2 LIKE %s ORDER BY ap1, ap2, nombre ASC", GetSQLValueString($varCodigo_rsPadron, "text"),GetSQLValueString($varNomBec_rsPadron, "text"),GetSQLValueString($varAp1_rsPadron, "text"),GetSQLValueString($varAp2_rsPadron, "text"));
 $query_limit_rsPadron = sprintf("%s LIMIT %d, %d", $query_rsPadron, $startRow_rsPadron, $maxRows_rsPadron);
 $rsPadron = mysql_query($query_limit_rsPadron, $conBecas) or die(mysql_error());
 $row_rsPadron = mysql_fetch_assoc($rsPadron);
@@ -362,7 +362,7 @@ Ninguna sesion iniciada&nbsp;&nbsp;&nbsp;&nbsp;<a href="../login.php">Iniciar se
           <tr>
             <td align="center"><?php echo $row_rsPadron['codigo']; ?></td>
             <td align="center"><?php echo $row_rsPadron['ult_act']; ?></td>
-            <td align="center"><?php echo $row_rsPadron['nom_bec'] . " " . $row_rsPadron['ap1'] . " " . $row_rsPadron['ap2']; ?></td>
+            <td align="center"><?php echo $row_rsPadron['nombre'] . " " . $row_rsPadron['ap1'] . " " . $row_rsPadron['ap2']; ?></td>
             <td align="center"><?php echo $row_rsPadron['curp']; ?></td>
             <td align="center"><?php echo $row_rsPadron['correo']; ?></td>
             <td align="center"><?php echo $row_rsPadron['tel_con']; ?></td>

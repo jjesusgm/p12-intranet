@@ -76,17 +76,18 @@ Ninguna sesion iniciada&nbsp;&nbsp;&nbsp;&nbsp;<a href="../login.php">Iniciar se
 <div id="div_contenido">
   <table width="90%" align="center">
     <tr>
-      <td><h1 class="H_Estilo1">Miscelanea</h1></td>
+      <td><h1 class="H_Estilo1 margin_top">Miscelanea</h1>
+      <h2 class="H_Estilo2 margin_none">Opciones</h2></td>
     </tr>
     <tr>
       <td><table width="100%">
         <tr>
-          <td>&nbsp;</td>
-          <td>- Clases presenciales</td>
+          <td width="3%">&nbsp;</td>
+          <td>- <a href="asist_pres.php" class="estilo3">Clases presenciales</a></td>
         </tr>
         <tr>
-          <td>&nbsp;</td>
-          <td>- Repetidores</td>
+          <td width="3%">&nbsp;</td>
+          <td>- <a href="ua_repetir.php" class="estilo3">Repetidores</a></td>
         </tr>
       </table></td>
     </tr>

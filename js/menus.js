@@ -34,7 +34,7 @@ function muestraMenuMain(menu_group, link_pre){
 	var default_menu = 					["Inicio","1er ingreso","Semestre Base","Becas","Contacto","Miscelanea","Ayuda"];
 	var default_menu_links =			["index.php","inf_1er_ing/index.php","sem_base/index.php","becas/index.php","contacto/index.php","miscelanea/index.php","ayuda/index.php"];
 	var default_submenu = 				[[],[],[],["Benito Juarez"],[],["Clases presenciales","Repetidores"],[]];
-	var default_submenu_links =			[[],[],[],["becas/consulta_bbbj.php"],[],["asist_pres/index.php","miscelanea/ua_repetir.php"],[]];
+	var default_submenu_links =			[[],[],[],["becas/consulta_bbbj.php"],[],["miscelanea/asist_pres.php","miscelanea/ua_repetir.php"],[]];
 	//Variable para armar el string del menu
 	var menu_string = "";
 	

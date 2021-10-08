@@ -1,3 +1,4 @@
+<?php require_once('../Connections/conMiscelanea.php'); ?>
 <?php mysql_set_charset('utf8'); ?>
 <?php
 //initialize the session
@@ -26,6 +27,48 @@ if ((isset($_GET['doLogout'])) &&($_GET['doLogout']=="true")){
     exit;
   }
 }
+?>
+<?php
+if (!function_exists("GetSQLValueString")) {
+function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
+{
+  if (PHP_VERSION < 6) {
+    $theValue = get_magic_quotes_gpc() ? stripslashes($theValue) : $theValue;
+  }
+
+  $theValue = function_exists("mysql_real_escape_string") ? mysql_real_escape_string($theValue) : mysql_escape_string($theValue);
+
+  switch ($theType) {
+    case "text":
+      $theValue = ($theValue != "") ? "'" . $theValue . "'" : "NULL";
+      break;    
+    case "long":
+    case "int":
+      $theValue = ($theValue != "") ? intval($theValue) : "NULL";
+      break;
+    case "double":
+      $theValue = ($theValue != "") ? doubleval($theValue) : "NULL";
+      break;
+    case "date":
+      $theValue = ($theValue != "") ? "'" . $theValue . "'" : "NULL";
+      break;
+    case "defined":
+      $theValue = ($theValue != "") ? $theDefinedValue : $theNotDefinedValue;
+      break;
+  }
+  return $theValue;
+}
+}
+
+$colname_rsAlumno = "-1";
+if (isset($_POST['fCodigo'])) {
+  $colname_rsAlumno = $_POST['fCodigo'];
+}
+mysql_select_db($database_conMiscelanea, $conMiscelanea);
+$query_rsAlumno = sprintf("SELECT * FROM clas_presencial WHERE codigo = %s", GetSQLValueString($colname_rsAlumno, "text"));
+$rsAlumno = mysql_query($query_rsAlumno, $conMiscelanea) or die(mysql_error());
+$row_rsAlumno = mysql_fetch_assoc($rsAlumno);
+$totalRows_rsAlumno = mysql_num_rows($rsAlumno);
 ?>
 <!DOCTYPE html>
 <html><!-- InstanceBegin template="/Templates/t_intranet_p12.dwt" codeOutsideHTMLIsLocked="false" -->
@@ -72,42 +115,91 @@ Ninguna sesion iniciada&nbsp;&nbsp;&nbsp;&nbsp;<a href="../login.php">Iniciar se
 <script language="javascript" type="text/javascript">muestraMenuMain("<?php if(isset($_SESSION['MM_UserGroup'])){echo $_SESSION['MM_UserGroup'];}else {echo '';} ?>", "../", "");</script>
 </div>
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Path" -->
-<div id="div_hdr_path">&nbsp;Inicio &gt; Miscelanea &gt; Repetidores</div>
+<div id="div_hdr_path">&nbsp;Inicio &gt; Miscelanea &gt; Clases presencial</div>
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Contenido" -->
 <div id="div_contenido">
   <table width="90%" align="center">
     <tr>
-      <td><h1 class="H_Estilo1">Confirma aquí las Unidades de Aprendizaje que vas a repetir</h1></td>
+      <td><h1 class="H_Estilo1">Consulta aquí las fechas y demás detalles de tu asistencia PRESENCIAL</h1></td>
     </tr>
-    <tr>
-      <td align="center"><form name="form1" method="get" action="confirm_ua_rep.php">
-        <div class="DivShadowMsgLogin">
-          <table width="350" class="tabla_info_msg">
-            <tr>
-              <th colspan="2" align="left" scope="col">Escribe tu código</th>
-            </tr>
-            <tr>
-              <td align="right">&nbsp;</td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td width="100" align="right">Código*</td>
-              <td><input name="codigo" type="text" id="codigo" size="15" maxlength="9" required pattern="[0-9]{9,}">
-                <input type="submit" name="bEnviar" id="bEnviar" value="Enviar"></td>
-            </tr>
-            <tr>
-              <td align="right">&nbsp;</td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr bgcolor="#FFFF00">
-              <td colspan="2" align="center">Escribe tu código de estudiante, recuerda que debe ser de 9 dígitos.</td>
-            </tr>
-          </table>
-        </div>
-      </form>
-	  </td>
-    </tr>
-<tr>
+    <?php if ($totalRows_rsAlumno == 0) { // Show if recordset empty ?>
+      <tr>
+        <td align="center"><form name="form1" method="post" action="">
+          <div class="DivShadowMsgLogin">
+            <table width="350" class="tabla_info_msg">
+              <tr>
+                <th colspan="2" align="left" scope="col">Escribe tu código</th>
+              </tr>
+              <tr>
+                <td align="right">&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="100" align="right">Código*</td>
+                <td><input name="fCodigo" type="text" id="fCodigo" size="15" maxlength="9" required pattern="[0-9]{9,}">
+                  <input type="submit" name="bEnviar" id="bEnviar" value="Enviar"></td>
+              </tr>
+              <tr>
+                <td align="right">&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr bgcolor="#FFFF00">
+                <td colspan="2" align="center">Escribe tu código de estudiante, recuerda que debe ser de 9 dígitos.</td>
+              </tr>
+            </table>
+          </div>
+        </form>
+        <?php if (isset($_POST['fCodigo'])) { // Show if fCodigo is set ?>
+          <br>¡DATOS NO ENCONTRADOS, INGRESA AL LINK Y COMPLETA EL FORMULARIO!<br>
+          <?php } // Show if fCodigo is set ?>
+        </td>
+      </tr>
+      <?php } // Show if recordset empty ?>
+    <?php if ($totalRows_rsAlumno > 0) { // Show if recordset not empty ?>
+  <tr>
+    <td align="center">
+    <div class="DivShadowMsg">
+    <table width="800" class="TablaEntregaNIP">
+      <tr>
+        <th colspan="2" align="left" scope="col">Datos encontrados</th>
+        </tr>
+      <tr>
+        <td width="12%" align="right">Código:</td>
+        <td><?php echo $row_rsAlumno['codigo']; ?></td>
+        </tr>
+      <tr>
+        <td align="right">Nombre:</td>
+        <td><?php echo $row_rsAlumno['nombre']; ?></td>
+      </tr>
+      <tr>
+        <td align="right">Plantel:</td>
+        <td><?php echo $row_rsAlumno['plantel']; if($row_rsAlumno['plantel'] == "P12"){echo " - Prepa 12";}else{echo " - Módulo Tlaquepaque";} ?></td>
+      </tr>
+      <tr>
+        <td align="right">Grupo:</td>
+        <td><?php echo $row_rsAlumno['grupo']; ?></td>
+      </tr>
+      <tr>
+        <td align="right">Sección:</td>
+        <td><?php echo $row_rsAlumno['seccion']; ?></td>
+      </tr>
+      <tr>
+        <td align="right">Aula:</td>
+        <td><?php echo $row_rsAlumno['aula']; ?></td>
+      </tr>
+      <tr>
+        <td align="right">Periodos para asistir de manera presencial a clase:</td>
+        <td><?php echo nl2br($row_rsAlumno['detalles']); ?></td>
+        </tr>
+      <tr>
+        <td colspan="2" align="left" bgcolor="#FFFF00">Nota: .</td>
+      </tr>
+    </table>
+    </div>
+    </td>
+  </tr>
+  <?php } // Show if recordset not empty ?>
+  <tr>
     <td align="center">&nbsp;</td>
   </tr>
   <tr>
@@ -168,3 +260,6 @@ Ninguna sesion iniciada&nbsp;&nbsp;&nbsp;&nbsp;<a href="../login.php">Iniciar se
 </div>
 </body>
 <!-- InstanceEnd --></html>
+<?php
+mysql_free_result($rsAlumno);
+?>
