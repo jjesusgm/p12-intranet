@@ -31,10 +31,10 @@ function muestraMenuMain(menu_group, link_pre){
 	var soporte_submenu = 				[[],[],["Solicitudes","Bitácoras cómputo"],[],[]];
 	var soporte_submenu_links =			[[],[],["soporte/solicitudes.php","soporte/bitacora_computo_list.php"],[],[]];
 	//Menu por default
-	var default_menu = 					["Inicio","1er ingreso","Semestre Base","Becas","Contacto","Miscelanea","Ayuda"];
-	var default_menu_links =			["index.php","inf_1er_ing/index.php","sem_base/index.php","becas/index.php","contacto/index.php","miscelanea/index.php","ayuda/index.php"];
-	var default_submenu = 				[[],[],[],["Benito Juarez"],[],["Clases presenciales","Repetidores"],[]];
-	var default_submenu_links =			[[],[],[],["becas/consulta_bbbj.php"],[],["miscelanea/asist_pres.php","miscelanea/ua_repetir.php"],[]];
+	var default_menu = 					["Inicio","1er ingreso","Descargas","Semestre Base","Becas","Contacto","Miscelanea","Ayuda"];
+	var default_menu_links =			["index.php","inf_1er_ing/index.php","descargas/index.php","sem_base/index.php","becas/index.php","contacto/index.php","miscelanea/index.php","ayuda/index.php"];
+	var default_submenu = 				[[],[],["Adobe Suite CS6","Dreamweaver CS6 Portable","OpenShot portable","XAMPP"],[],["Benito Juarez"],[],["Clases presenciales","Repetidores"],[]];
+	var default_submenu_links =			[[],[],["descargas/software/adobe_cs6.zip","descargas/software/dw_cs6_portable_es.zip","descargas/software/OpenShotPortable_2.6.1.paf.exe","descargas/software/xampp.zip"],[],["becas/consulta_bbbj.php"],[],["miscelanea/asist_pres.php","miscelanea/ua_repetir.php"],[]];
 	//Variable para armar el string del menu
 	var menu_string = "";
 	
